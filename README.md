@@ -1,5 +1,5 @@
 ## MlCHECK
-This repository contains the necessary codes and datasets to replicate the results mentioned in our paper published in ICMLA titled as [MLCHECK– Property-Driven Testing of Machine Learning Classifiers](https://ieeexplore.ieee.org/document/9680205). You need to install conda to run our tool. After installing anaconda into your system you need create a virtual conda environment. You can do so by running the following command: Then obtain the required libraries and packages:
+This repository contains the necessary codes and datasets to replicate the results mentioned in our paper published in ICMLA titled as [MLCHECK– Property-Driven Testing of Machine Learning Classifiers](https://ieeexplore.ieee.org/document/9680205). You need to install conda to run our artifact. After installing anaconda into your system you need create a virtual conda environment. You can do so by running the following command: Then obtain the required libraries and packages:
 ```
 conda env create -f environment.yml
 conda activate mlcheck
@@ -9,6 +9,7 @@ After installing the necessary packages, you can run several commands to see our
 ## Important
 Our tool will generate some intermmediate files and dataset. If you manually abort the execution, please remove the 'asserStmnt.txt' and 'assumeStmnt.txt' file. Otherwise it would create problems in the next execution of a different or same script.
 
+# Replicating the results from the paper
 To replicate the results of Table 4 for the test cases Decision tree, Logistic Regression, Naive Bayes, Fair-Aware1 and Fair-Aware2 for both the Adult and Credit dataset, please run the following command
 ```
 python test_function_fairness.py 
