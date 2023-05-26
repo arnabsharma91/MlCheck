@@ -9,7 +9,7 @@ After installing the necessary packages, you can run several commands to see our
 ## Important
 Our tool will generate some intermmediate files and dataset. If you manually abort the execution, please remove the 'asserStmnt.txt' and 'assumeStmnt.txt' file. Otherwise it would create problems in the next execution of a different or same script.
 
-# Replicating the results from the paper
+### Replicating the results from the paper
 To replicate the results of Table 4 for the test cases Decision tree, Logistic Regression, Naive Bayes, Fair-Aware1 and Fair-Aware2 for both the Adult and Credit dataset, please run the following command
 ```
 python test_function_fairness.py 
